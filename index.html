@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Starter</title>
+    <link rel="stylesheet" href="css/style.css"> <!--tailwind-->
+    <link rel="stylesheet" href="css/style2.css"> <!--//CSS TRADICIONAL-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="flex flex-col">
+        <div class="w-full bg-zaracayRed text-white p-2">
+            <div class="flex flex-col h-16 md:flex-row justify-between md:h-4 ">
+                <a href="#">Contacto Matriz: 593-652-785-25</a>
+                <a href="#">Correo: zaracay@bus.com</a>
+                <a href="#"">Facturación Electrónica</a>
+            </div>
+        </div>
+        <div class=" flex flex-row items-center justify-around">
+                    <div class="flex flex-row items-center">
+                        <img src="images/logo_zaracay.jpg" alt="" class="w-[100px] h-[100px]">
+                        <h4 class="text-2xl hidden md:block font-serif font-semibold">Cooperativa de Transportes Zaracay
+                        </h4>
+                    </div>
+
+                    <ul class="flex flex-col md:flex-row gap-4 ml-10 mr-10 transition-all duration-200">
+                        <li class="hover:text-zaracayRed ">
+                            <a href="#">Inicio</a>
+                        </li>
+                        <li class="hover:text-zaracayRed ">
+                            <a href="#">Conocenos</a>
+
+                        </li>
+                        <li class="hover:text-zaracayRed ">
+                            <a href="#">Servicios</a>
+
+                        </li>
+                        <li class="hover:text-zaracayRed ">
+                            <a href="#">Contáctanos</a>
+
+                        </li>
+                    </ul>
+
+                    <div class="flex flex-col md:flex-row gap-3 justify-between w-32 py-1">
+                        <a class="ficon" href="#"><img src="images/icon-facebook.svg" alt="" class="duration-200"></a>
+                        <a class="ficon" href="#"><img src="images/icon-twitter.svg" alt="" class="duration-200"></a>
+                        <a class="ficon" href="#"><img src="images/icon-instagram.svg" alt="" class="duration-200"></a>
+
+                    </div>
+
+            </div>
+    </header>
+
+    <section id="hero">
+
+        <div class="section-container mb-50 pt-16">
+            <img src="images/logo_zaracay.jpg" alt="logo cooperativa zaracay" class="mx-auto my-4 w-64">
+            <h3>
+                COOPERATIVA DE TRANSPORTES ZARACAY
+            </h3>
+            <p class="max-w-3xl mx-auto mb-10 text-2xl">
+                Su preferencia nos permite seguir innovando.
+            </p>
+            <div class="btn-container">
+                <a href="#" class="p-4 px-8 rounded-full shadow-lg bg-zaracayGreen duration-200 hover:opacity-80 ">
+                    VIAJA A TU DESTINO
+                </a>
+                <a href="#" class="p-4 px-8 rounded-full shadow-lg bg-zaracayRed duration-200 hover:opacity-80">
+                    ENVIA UNA ENCOMIENDA
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="access-section">
+        <div class="section-container my-5">
+            <div class="relative flex flex-col md:flex-row md:space-x-16 items-center">
+                <div class="text-center justify-center md:w-1/2 py-25">
+                    <h3>Conoce cada rincón del Ecuador</h3>
+                    <p class="section-content mb-10 ">
+                        Adquiere tus boletos ya!
+                    </p>
+                    <a href="#"
+                        class="p-4 px-8 rounded-full text-2xl text-white shadow-lg bg-zaracayGreen duration-200 hover:opacity-80 overflow-auto">
+                        COMPRAR
+                    </a>
+                </div>
+
+                <div class="md:w-3/4 mt-10 md:mt-0">
+                    <img src="images/turismo.jpg" alt="" class="w-[90%] md:h-[600px] object-fit">
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="promo">
+        <div class="my-20 bg-zaracayGreen opacity-85 mx-auto text-center p-10 ">
+            <h3 class="text-white">El mejor transporte del Ecuador</h3>
+            <p class="text-white mb-16 text-2xl">
+                TRANSPORTES ZARACAY #1 DEL ECUADOR
+            </p>
+            <div class="flex flex-col items-center justify-between space-y-16 md:flex-row md:space-y-0 md:space-x-3">
+                <div class="flex flex-col items-center space-y-5">
+                    <svg width="100px" height="100px" viewBox="0 0 1024 1024" fill="#ffffff" class="icon" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M678.584675 765.172506v157.995691l75.697852 31.505938V723.768586a429.379161 429.379161 0 0 1-75.697852 41.40392zM269.717473 723.768586V953.098138l75.697852-31.505938v-156.419694a429.309162 429.309162 0 0 1-75.697852-41.40392zM511.999 798.78444a428.955162 428.955162 0 0 1-105.993793-13.241974v238.457534L511.999 979.886086 617.992793 1023.998V785.542466A429.025162 429.025162 0 0 1 511.999 798.78444zM511.999 0C308.479398 0 142.903721 165.575677 142.903721 369.097279S308.479398 738.192558 511.999 738.192558s369.097279-165.575677 369.097279-369.097279S715.520602 0 511.999 0z m0 660.198711c-161.345685 0-292.611428-131.265744-292.611428-292.611429 0-161.347685 131.265744-292.613428 292.611428-292.613428s292.611428 131.265744 292.611428 292.613428c0 161.347685-131.263744 292.611428-292.611428 292.611429zM511.999 135.563735c-127.93575 0-232.021547 104.083797-232.021547 232.023547S384.06325 599.606829 511.999 599.606829s232.021547-104.083797 232.021547-232.021547c0-127.93775-104.083797-232.021547-232.021547-232.021547zM607.360814 502.999018L511.999 452.865115 416.639186 502.999018l18.211965-106.183793-77.14785-75.199853 106.617792-15.49397L511.999 209.509591l47.679907 96.611811 106.617792 15.49397-77.14785 75.199853 18.211965 106.183793z" />
+                    </svg>
+                    <h5 class="text-white"> CALIDAD</h5>
+                    <p class="text-white">
+                        La calidad nuestra carta de presentación
+                    </p>
+                </div>
+
+                <div class="flex flex-col items-center space-y-5 ">
+                    <svg width="100px" height="100px" viewBox="0 0 1024 1024" class="icon" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M888.405333 410.112l-2.389333-3.328 2.048-6.442667 5.376 0.981334 4.992 2.858666 0.725333-0.469333-1.706666 4.48-4.437334 2.218667-4.608-0.298667z m28.330667 30.250667l-2.048-7.125334-43.562667-28.288-10.538666-0.64-9.386667 10.325334-4.693333 12.842666 3.882666 7.082667 66.346667 5.802667zM248.533333 406.314667l-4.992 18.048 16.256-18.474667 1.322667-5.76-6.997333-2.730667-5.589334 8.917334z m9.856-29.098667l-0.042666 0.981333-27.904 13.141334 35.285333-6.997334-7.338667-7.125333z m21.12 34.986667l3.456-2.730667 3.029334-6.997333-0.554667 0.938666 2.432-8.192-6.613333-0.981333-5.077334 1.28-3.370666 3.541333-1.664 5.888 4.437333 5.717334 3.925333 1.536z m557.312-125.653334l-4.992-2.773333-22.314666-1.365333-9.386667-7.936 11.349333-41.856-55.509333 89.856-14.592 10.922666 27.050667 10.282667 68.394666-57.130667z m52.352 249.045334l55.253334 87.808-44.586667-82.986667-10.666667-4.821333zM1024 512c0 282.794667-229.205333 512-511.957333 512S0 794.794667 0 512 229.290667 0 512.042667 0 1024 229.205333 1024 512z m-372.48-206.805333l0.170667 43.562666 8.874666 22.314667 20.949334-4.864 1.152-14.421333-31.146667-46.592z m31.104-78.08l-7.424-2.986667-15.872 3.541333-15.146667-3.328-0.64 18.816 1.664 4.138667 20.437334 1.962667 13.098666-10.197334 3.882667-11.946666zM379.093333 91.477333l25.642667-1.024 49.706667-32.512c-15.872 2.005333-31.402667 4.778667-46.72 8.32l-9.130667 12.074667-19.498667 13.141333z m-31.786666 14.933334l16.853333 13.397333 21.589333 2.901333 13.354667-12.842666-8.021333-1.194667-33.322667-18.944-9.642667-1.877333-0.810666 18.56z m-43.904-2.048l1.834666 2.432 9.386667-0.554667 10.154667-4.352 5.589333-6.826667-2.005333-2.901333c-8.490667 3.669333-16.682667 8.021333-24.96 12.202667z m-24.490667 51.84l12.544 1.834666 9.002667-10.581333 2.474666-12.330667-6.698666-3.456-17.28 19.029334-0.042667 5.504z m-91.733333 35.114666l22.528 12.842667 33.109333-15.274667 25.813333-27.776 0.64-25.002666-22.314666 4.394666-2.261334-0.810666c-15.701333 11.178667-30.592 23.552-44.757333 36.608l2.474667 2.474666-13.568 9.386667-1.664 3.157333z m-126.037334 361.770667l-9.898666-16.981333c0 1.536 0.170667 3.072 0.256 4.608l9.301333 20.778666 0.341333-8.405333z m454.613334 198.869333l-23.082667-17.109333-66.176-19.626667-38.741333-50.773333-47.744-18.133333-112.128-3.797334-34.048-57.429333-8.96-1.066667-27.946667 13.44-10.026667-10.794666-1.962666-15.744 3.456-12.928 17.578666-23.850667 20.906667-11.605333 52.096 9.685333 7.637333 21.888 16.128 3.797333-0.298666-33.408 43.690666-63.573333 96.426667-53.717333-13.994667-1.749334-24.917333-18.389333 63.36-18.005333 2.261333 5.632-0.853333 5.333333-3.925333 5.12-6.954667 4.906667 5.034667 6.741333 15.445333 0.768 12.501333-4.693333-41.557333-100.437334-5.802667 0.768-50.602666-24.362666-11.392 10.965333-29.482667 75.477333-14.250667-12.757333-33.749333-15.530667-20.821333-23.722666 24.533333-36.864 75.008-58.154667 11.093333-31.317333 34.56 21.845333 5.461334 11.989333-36.352 29.696 36.181333 22.741334 7.893333-4.224 3.712 0.256 15.36-24.32-3.413333-3.925334 21.12-23.168-16.256-27.946666-41.984-35.754667 22.229333-3.968-1.194666-5.802667-12.16-2.773333-34.901334 19.754667 11.264-18.432-23.552 7.424-4.138666 57.472-18.602667 12.757333-13.226667-12.416 34.389334-64.085333-2.773334-2.773334-3.157333-1.322666h-3.584l-3.968 1.493333-54.698667 76.202667 1.066667-4.608 5.589333-10.538667-2.090666-4.266667-9.301334 5.418667-78.677333 16.213333-14.250667-7.936a459.648 459.648 0 0 0-123.818666 317.44c0 1.450667 0.213333 2.901333 0.256 4.437334l0.213333-0.725334 11.392 4.224 41.6 70.656 125.184 55.210667 17.109333 18.944 0.384 25.130667-15.616 37.333333-0.853333 20.48 54.272 105.002667 1.621333 58.197333c29.269333 16.597333 60.373333 30.250667 93.226667 40.192l56.789333-72.746667 50.474667-37.248 29.482667-96.512zM326.613333 238.890667l-4.266666-6.144-4.181334-1.024-15.744 19.712 2.816 2.986666 19.2 0.085334 6.058667-3.797334-3.882667-11.818666z m192.213334 41.301333l130.090666-112.554667 30.549334-81.792a460.032 460.032 0 0 0-170.837334-31.701333c-7.936 0.085333-15.701333 0.896-23.552 1.365333l-6.016 3.242667-12.288 17.664-2.389333 11.733333 4.736 8.661334 33.450667 4.352 9.685333 64.682666-16.597333 38.954667-3.968 28.586667 10.538666 30.208 16.597334 16.597333z m435.925333 355.370667l3.584-2.176c10.112-38.613333 15.872-78.976 15.573333-120.789334a470.656 470.656 0 0 0-9.045333-86.698666l-2.474667-5.034667 0.896-3.370667a458.88 458.88 0 0 0-82.432-178.730666l-2.901333 1.194666-16.768-17.152 6.144-1.877333a467.328 467.328 0 0 0-47.189333-48.341333l-14.08-0.896-25.728 11.050666-67.456 91.52 3.157333 11.904 31.701333 24.362667v12.544l-89.088 65.664 0.64 8.490667 7.210667 12.032 2.432 10.922666-38.528 15.317334-2.986667 19.84 2.858667 24.277333-59.008 116.010667-2.517333 51.456 43.989333 25.941333 72.661333-0.256 32.768 9.344 62.378667 209.152a462.165333 462.165333 0 0 0 176.469333-253.141333l-2.261333-2.56z m-62.122667-158.677334l-69.12-18.773333-6.954666-8.448 1.365333 20.096-1.792 1.536-54.101333-56.490667-0.085334 0.426667-8.704 2.090667-1.450666-2.090667 2.645333 10.88 21.333333 15.616 1.621334 11.392-4.181334 6.997333-3.072 2.261334-3.882666 1.408-20.352-32-30.592 0.170666-63.786667 47.36 83.712-3.072 37.845333 34.304 18.048 6.314667 100.437334-20.138667 1.066666-19.84z"
+                            fill="#ffffff" />
+                    </svg>
+                    <h5 class="text-white">EXPERIENCIA</h5>
+                    <p class="text-white">
+                        Más de 25 años en servicio de nuestro país
+                    </p>
+                </div>
+
+                <div class="flex flex-col items-center space-y-5">
+                    <svg width="100px" height="100px" viewBox="0 0 1024 1024" fill="#ffffff" class="icon" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M908.008473 139.713707L529.299213 3.059374a51.005609 51.005609 0 0 0-17.397182-3.059374c-5.950311 0-11.855934 1.03125-17.534682 3.090312L117.015902 139.744645c-20.394681 7.397498-34.704989 26.774679-34.70499 48.472173v323.781463c0 72.287165 23.299368 144.584643 67.763417 214.87806 34.082802 53.875921 81.520288 106.71028 140.256832 157.045577 98.209345 84.156849 195.655565 132.70121 199.749627 134.725896a51.957797 51.957797 0 0 0 22.96593 5.352186c7.717185 0 15.485933-1.732499 22.608431-5.197498 4.094061-1.993749 101.495594-49.78186 199.797752-133.605272 58.794982-50.132485 105.520905-102.966844 139.627769-157.031827 44.446861-70.444666 66.601542-143.171831 66.601543-216.167122V188.216818c0.003437-21.731868-13.230933-41.133112-33.67374-48.503111zM164.810887 511.757656V226.768368c0-10.848747 6.648123-20.539056 16.847183-24.237805l320.759902-116.692777c2.859999-1.034687 6.142811-1.797812 9.580309-1.797812v427.961745h349.631456c0.020625 0 0.044687 0.464062 0.044688 0.759687-0.06875 93.255909-47.038736 185.679943-139.58652 275.670228-72.273415 70.279666-154.384953 120.436213-196.621503 144.096519-3.915311 2.196562-10.027184 3.231249-13.464683 3.231249V511.867656l-347.190832-0.11z" />
+                    </svg>
+                    <h5 class="text-white">SEGURIDAD</h5>
+                    <p class="text-white">
+                        Su bienestar es nuestra prioridad
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="references">
+        <div class="flex flex-col items-center">
+            <h2 class="mb-10 text-xl font-thin">
+                Nuestros Partners
+            </h2>
+            <div class="flex flex-col items-center justify-between 
+            mx-auto space-y-16 my-44 md:flex-row md:space-y-0 gap-20 mb-10">
+                <img src="images/marcopolo.svg" alt="" class="w-[100px] h-[100px] opacity-50" />
+                <img src="images/mitsubishi.svg" alt="" class="w-[100px] h-[100px] opacity-50" />
+                <img src="images/ferrari.svg" alt="" class="w-[100px] h-[100px] opacity-50" />
+                <img src="images/general-motors.svg" alt="" class="w-[100px] h-[100px] opacity-50" />
+                <img src="images/mercedes-benz.svg" alt="" class="w-[100px] h-[100px] opacity-50" />
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="bg-gray-50">
+        <div class="section-container">
+            <div class="flex flex-col items-center justify-between md:flex-row">
+                <img class="w-[150px] h-[150px]" src="images/logo_zaracay.jpg" alt="">
+
+                <div
+                    class="flex flex-col items-center justify-between flex-1 mb-10 space-y-6 md:flex-row md:mb-0 md:space-y-0 text-black">
+                    <div class="flex flex-col space-y-4 md:flex-row md:ml-24 md:space-x-24 md:space-y-0">
+                        <div class="flex flex-col space-y-4 text-center md:text-left">
+                            <div>
+                                <a href="#" class="hover:text-zaracayGreen">Boletos</a>
+                            </div>
+                            <div>
+                                <a href="#" class="hover:text-zaracayGreen">Encomiendas</a>
+                            </div>
+                            <div>
+                                <a href="#" class="hover:text-zaracayGreen">Facturación</a>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col space-y-4 text-center md:text-left">
+                            <div>
+                                <a href="#" class="hover:text-zaracayGreen">FAQ</a>
+                            </div>
+                            <div>
+                                <a href="#" class="hover:text-zaracayGreen">Contacto</a>
+                            </div>
+                            <div>
+                                <a href="#" class="hover:text-zaracayGreen">Visitanos</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-between w-32 py-1">
+                        <a class="ficon" href="#"><img src="images/icon-facebook.svg" alt="" class="duration-200"></a>
+                        <a class="ficon" href="#"><img src="images/icon-twitter.svg" alt="" class="duration-200"></a>
+                        <a class="ficon" href="#"><img src="images/icon-instagram.svg" alt="" class="duration-200"></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
