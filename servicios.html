@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Starter</title>
+    <link rel="stylesheet" href="css/style.css"> <!--tailwind-->
+    <link rel="stylesheet" href="css/style2.css"> <!--//CSS TRADICIONAL-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="flex flex-col">
+        <div class="w-full bg-zaracayRed text-white p-2">
+            <div class="flex flex-col h-16 md:flex-row justify-between md:h-4 ">
+                <a href="#">Contacto Matriz: 593-652-785-25</a>
+                <a href="#">Correo: zaracay@bus.com</a>
+                <a href="#"">Facturación Electrónica</a>
+            </div>
+        </div>
+        <div class=" flex flex-row items-center justify-around">
+                    <div class="flex flex-row items-center">
+                        <img src="images/logo_zaracay.jpg" alt="" class="w-[100px] h-[100px]">
+                        <h4 class="text-2xl hidden md:block font-serif font-semibold">Cooperativa de Transportes Zaracay
+                        </h4>
+                    </div>
+
+                    <ul class="flex flex-col md:flex-row gap-4 ml-10 mr-10 transition-all duration-200">
+                        <li class="hover:text-zaracayRed ">
+                            <a href="#">Inicio</a>
+                        </li>
+                        <li class="hover:text-zaracayRed ">
+                            <a href="#">Conocenos</a>
+
+                        </li>
+                        <li class="hover:text-zaracayRed ">
+                            <a href="#">Servicios</a>
+
+                        </li>
+                        <li class="hover:text-zaracayRed ">
+                            <a href="#">Contáctanos</a>
+
+                        </li>
+                    </ul>
+
+                    <div class="flex flex-col md:flex-row gap-3 justify-between w-32 py-1">
+                        <a class="ficon" href="#"><img src="images/icon-facebook.svg" alt="" class="duration-200"></a>
+                        <a class="ficon" href="#"><img src="images/icon-twitter.svg" alt="" class="duration-200"></a>
+                        <a class="ficon" href="#"><img src="images/icon-instagram.svg" alt="" class="duration-200"></a>
+
+                    </div>
+
+            </div>
+    </header>
+
+    <section id="promo">
+        <div class="my-10 bg-zaracayGreen opacity-90 mx-auto text-center p-10 ">
+            <h3 class="text-white">Te ofrecemos lo que necesitas!</h3>
+            <p class="text-white mb-8 text-2xl">
+                Nuestros Servicios
+            </p>
+  
+            <section id="servicios" class="py-8 w-full flex flex-col items-center mt-5">
+                <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 md:flex-row items-center justify-around">
+                    <div class="group relative  h-[425px] overflow-hidden rounded-lg">
+                        <a href="/comprar.html">
+                            <img src="images/buy.jpg" alt="adquirir_boletos"
+                            class="w-full h-full object-cover group-hover:opacity-40">
+                        <h2
+                            class="absolute inset-0 flex items-center justify-center text-white font-semibold text-3xl opacity-0 transition-opacity duration-300 hover:opacity-100">
+                            Viajes</h2>
+                        </a>
+
+                    </div>
+                    <div class="group relative h-[425px] overflow-hidden rounded-lg">
+                        <a href="">
+                            <img src="images/entrega.jpg" alt="envio_encomiendas"
+                            class="w-full h-full object-cover group-hover:opacity-40">
+                        <h2
+                            class="absolute inset-0 flex items-center justify-center text-white font-semibold text-3xl opacity-0 transition-opacity duration-300 hover:opacity-100">
+                            Encomiendas</h2>
+                        </a>
+                      
+                    </div>
+                    <div class="group relative  h-[425px] overflow-hidden rounded-lg">
+                        <a href="">
+                            <img src="images/horarios.jpg" alt="nuestros_destinos"
+                            class="w-full h-full object-cover group-hover:opacity-40">
+                        <h2
+                            class="absolute inset-0 flex items-center justify-center text-white font-semibold text-3xl opacity-0 transition-opacity duration-300 hover:opacity-100">
+                            Horarios</h2>
+                        </a>
+                        
+                    </div>
+                    <div class="group relative h-[425px] overflow-hidden rounded-lg">
+                        <a href="">
+                            <img src="images/Reclamo.jpg" alt="reclamos" class="w-full h-full object-cover group-hover:opacity-40">
+                            <h2
+                                class="absolute inset-0 flex items-center justify-center text-white font-semibold text-3xl opacity-0 transition-opacity duration-300 hover:opacity-100">
+                                Reclamos</h2>
+                        </a>
+                        
+                    </div>
+                </div>
+            </section>
+        
+        
+        
+        </div>
+    </section>
+
+
+
+    <footer class="bg-gray-50">
+        <div class="section-container">
+            <div class="flex flex-col items-center justify-between md:flex-row">
+                <img class="w-[150px] h-[150px]" src="images/logo_zaracay.jpg" alt="">
+
+                <div
+                    class="flex flex-col items-center justify-between flex-1 mb-10 space-y-6 md:flex-row md:mb-0 md:space-y-0 text-black">
+                    <div class="flex flex-col space-y-4 md:flex-row md:ml-24 md:space-x-24 md:space-y-0">
+                        <div class="flex flex-col space-y-4 text-center md:text-left">
+                            <div>
+                                <a href="#" class="hover:text-zaracayGreen">Boletos</a>
+                            </div>
+                            <div>
+                                <a href="#" class="hover:text-zaracayGreen">Encomiendas</a>
+                            </div>
+                            <div>
+                                <a href="#" class="hover:text-zaracayGreen">Facturación</a>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col space-y-4 text-center md:text-left">
+                            <div>
+                                <a href="#" class="hover:text-zaracayGreen">FAQ</a>
+                            </div>
+                            <div>
+                                <a href="#" class="hover:text-zaracayGreen">Contacto</a>
+                            </div>
+                            <div>
+                                <a href="#" class="hover:text-zaracayGreen">Visitanos</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-between w-32 py-1">
+                        <a class="ficon" href="#"><img src="images/icon-facebook.svg" alt="" class="duration-200"></a>
+                        <a class="ficon" href="#"><img src="images/icon-twitter.svg" alt="" class="duration-200"></a>
+                        <a class="ficon" href="#"><img src="images/icon-instagram.svg" alt="" class="duration-200"></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
