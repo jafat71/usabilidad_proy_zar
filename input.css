@@ -23,17 +23,4 @@
         @apply mb-2 text-4xl 
     }
 }
-#hero {
-    background-image: url('/images/fondo_hero5.jpg');
-    background-size: cover; /* para cubrir todo el contenedor */
-    background-position: center; /* para centrar la imagen */
-}
 
-
-
-#promo {
-    background-image: url('/images/info_zaracay.jpg');
-    background-size: cover; /* para cubrir todo el contenedor */
-    background-position: center; /* para centrar la imagen */
-
-}
