@@ -24,7 +24,7 @@
     }
 }
 #hero {
-    background-image: url('/images/fondo_hero5.png');
+    background-image: url('/images/fondo_hero5.jpg');
     background-size: cover; /* para cubrir todo el contenedor */
     background-position: center; /* para centrar la imagen */
 }
