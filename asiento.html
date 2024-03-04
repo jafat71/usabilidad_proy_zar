@@ -211,8 +211,8 @@
         </div>
     </section>
 
-    <section id="turnos" class="mt-20 w-full bg-sky-300 p-10 mx-2 border-spacing-1 rounded-md">
-        <div class="flex flex-row md:flex-col items-start">
+    <section id="turnos" class="mt-20 w-full bg-sky-300  mx-1 border-spacing-1 rounded-md">
+        <div class="flex flex-row md:flex-col items-start p-4">
             <h3>BUS #102</h3>
         </div>
         <div class="flex flex-col md:flex-row justify-between items-center my-2 md:my-6">
@@ -308,7 +308,7 @@
             </div>
             <br>
             
-            <div class="flex flex-col items-center justify-start mt-2 ">
+            <div class="flex flex-col items-center justify-start mt-2 p-4">
                 <div>
                     <div class="w-1/2 flex flex-row md:flex-col items-center justify-between mt-10">
                         <h2 class="text-lg font-bold">Libre</h2>
@@ -328,7 +328,7 @@
                     </div>
                 </div>
                 
-                <button class="mt-10 left-0">
+                <button class="mb-5">
                     <a href="./comprar.html"
                         class="p-4 px-8 rounded-full text-2xl text-white shadow-lg bg-zaracayRed duration-200 hover:opacity-80 overflow-auto">
                         Comprar
@@ -386,12 +386,5 @@
         </div>
     </footer>
 </body>
-<script>
-    const slateCells = document.querySelectorAll('.slate-cell');
-    slateCells.forEach(cell => {
-        cell.addEventListener('click', () => {
-            cell.classList.toggle('bg-green-500');
-        });
-    });
-</script>
+
 </html>
